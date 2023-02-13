@@ -1,0 +1,88 @@
+*{
+     box-sizing: border-box;
+ }
+ h1{
+     text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ p{
+      color: black;
+      font-family:Arial, Helvetica, sans-serif;
+      margin-top: 40px;
+      padding-left: 10px;
+ }
+ div{
+     background-color: grey;
+       border: 2px solid black; 
+        margin-left: 10px;
+        padding-top: 10px;
+        
+     position: relative;
+     float: left;
+     width: 30%;
+     height: 150px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ h3{
+     position: absolute;
+     top: -20px;
+     right: 0px;
+     
+ }
+ .chicken{
+ background-color: rgb(213, 152, 152);
+ padding: 5px 25px;
+ border: 2px solid black;
+ }
+ .beef{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-color: rgb(193, 69, 67);
+     padding: 5px 25px;
+     border: 2px solid black;
+ }
+ 
+ .sushi{
+     background-color: rgb(229, 209, 152);
+     padding: 5px 25px;
+     border: 2px solid black;
+ }
+
+
+ @media (min-width: 992px){
+     div{
+         width: 30%;
+         height: 180px;
+         
+     }
+ }
+
+
+
+
+ @media (min-width: 768px) and (max-width: 991px){
+ 
+ .food-title-1{
+   width: 40%;
+   height: 180px;
+ }
+ .food-title-2{
+     width: 40%;
+     height: 180px;
+     margin-left: 100px;
+ }
+ .food-title-3{
+     width: 90%;
+     margin-top: 15px;
+     height: 180px;
+ }
+ 
+  }
+
+
+ @media (max-width:767px){
+     div{
+         width: 100%;
+     margin-top: 10px;
+     }
+    
+ }
